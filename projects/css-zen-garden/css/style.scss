@@ -1,0 +1,54 @@
+@import 'reset';
+@import 'variables';
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic);
+
+@mixin font($em){
+    font-size: ($em*16) + px;
+    font-size: ($em) + em;
+}
+
+body {
+	background: #c8c7c6 url('../images/bg-image.png') 0 0 repeat;
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	@include font(2.5);
+	color: $white;
+	font-weight: 300;
+}
+
+
+
+header {
+	position: fixed;
+	top: 2%;
+	left: 2%;
+	display: block;
+	height: 654px;
+	width: 256px;
+	background: url('../images/header-bg.png') 0 0 no-repeat;
+
+	h1 {
+		text-transform: uppercase;
+		padding-top: 250px;
+		padding-left: 25px;
+	}
+
+	h2 {
+		@include font(.95);
+		font-weight: 100;
+		text-transform: uppercase;
+		padding-left: 25px;
+		padding-top: 10px;
+		color: $white;
+		font-style: italic;
+		letter-spacing: 1px;
+	}
+
+}
+

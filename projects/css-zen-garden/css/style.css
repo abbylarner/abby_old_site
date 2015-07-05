@@ -1,0 +1,86 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* COLORS */
+body {
+  background: #c8c7c6 url("../images/bg-image.png") 0 0 repeat;
+  box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif; }
+
+h1 {
+  font-size: 40px;
+  font-size: 2.5em;
+  color: #fff;
+  font-weight: 300; }
+
+header {
+  position: fixed;
+  top: 2%;
+  left: 2%;
+  display: block;
+  height: 654px;
+  width: 256px;
+  background: url("../images/header-bg.png") 0 0 no-repeat; }
+  header h1 {
+    text-transform: uppercase;
+    padding-top: 250px;
+    padding-left: 25px; }
+  header h2 {
+    font-size: 15.2px;
+    font-size: 0.95em;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-left: 25px;
+    padding-top: 10px;
+    color: #fff;
+    font-style: italic;
+    letter-spacing: 1px; }
+
+/*# sourceMappingURL=style.css.map */

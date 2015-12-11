@@ -1,0 +1,253 @@
+.logo-wrapper
+{
+	margin-top: 20%;
+	text-align: center;
+}
+
+#logo
+{
+	width: 70%;
+}
+
+.navbar-toggle:hover .icon-bar
+{
+	background-color: #fff;
+}
+
+.section-header
+{
+	margin-top: 60px;
+	text-align: center;
+	color: #588099;
+}
+
+	.section-header h4
+	{
+		position: absolute;
+		padding: 10px;
+		background-color: #f9f9f9;
+		width: 26%;
+		margin-left: 37%;
+		top: 10px;
+	}
+
+	.line-one, .line-two 
+	{
+		display: none;
+	}
+
+
+
+.line-break
+{
+	height: 1px;
+	background-color: #588099;
+	width: 90%;
+	right: 5%;
+	margin-top: 100px;
+	position: absolute;
+}
+
+.work-content
+{
+	position: static;
+	margin-top: 15%;
+}
+
+	.work-content img
+	{
+		width: 80%;
+		border: 1px solid #efefef;
+		margin-left:10%;
+		margin-bottom: 20px;
+	}
+.row-two
+{
+	margin-top: 0;
+}
+
+.fade:hover {
+    opacity: 0.5;
+}
+.fade {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+#abby-image
+{
+	width: 50%;
+	margin-left: 0;
+}
+
+.abby-wrapper
+{
+	margin-top: 90px;
+	text-align: center;
+}
+
+a, a:hover
+{
+	color: #588099;
+}
+
+.contact-wrapper
+{
+	text-align: center;
+}
+
+@media (min-width: 768px)
+{
+	.logo-wrapper
+	{
+		margin-top: 20%;
+	}
+
+		#logo
+		{
+			width: 50%;
+		}
+	.line-one
+	{
+		display: block;
+		position: absolute;
+		padding: 10px;
+		width: 6.5%;
+		top: 16px;
+		left: 33%;
+	}
+	.line-two
+{
+		display: block;
+		position: absolute;
+		padding: 10px;
+		width: 7%;
+		top: 16px;
+		right: 33%;
+}
+
+		
+.line-break
+{
+
+	width: 90%;
+	right: 5%;
+
+}
+
+	.section-header
+	{
+		margin-top: 129px;
+	}
+	
+.line-break {
+	margin-top: 169px;
+	}
+
+	.section-header h4
+	{
+		width: 20%;
+		left: 3%;
+	}
+
+.work-content img
+	{
+		width: 100%;
+		margin-left: 0;
+	}
+	.logo-header
+	{
+		margin-top: 60px;
+	}
+	.logo-break
+	{
+		margin-top: 100px;
+	}
+
+	ul.nav.navbar-nav
+	{
+		margin-left: 70%;
+	}
+
+	#abby-image
+	{
+		width: 90%;
+	}
+
+	.abby-wrapper
+	{
+		text-align: left;
+	}
+}
+
+@media (min-width: 992px)
+{
+	.logo-wrapper
+	{
+		margin-top: 19%;
+	}
+
+	#logo {
+
+		width: 40%;
+	}
+	.line-one, .line-two
+	{
+		width: 5%;
+	}
+	.work-content
+	{
+		margin-top: 10%;
+	}
+
+	.row-two
+	{
+		margin-top: 15px;
+	}
+
+	ul.nav.navbar-nav
+	{
+		margin-left: 75%;
+	}
+
+}
+
+@media (min-width: 1199px)
+{
+	.logo-wrapper
+	{
+		margin-top: 15%;
+	}
+	#logo
+	{
+		width: 35%;
+	}
+
+	.line-one
+	{
+		width: 4%;
+		top: 18px;
+		left: 35%;
+	}
+	
+	.line-two
+	{
+		width: 4%;
+		top: 18px;
+		right: 35%;
+	}
+	.section-header h4
+	{
+		width: 16%;
+		left: 5%;
+
+	}
+
+	ul.nav.navbar-nav
+	{
+		margin-left: 81%;
+	}
+
+}

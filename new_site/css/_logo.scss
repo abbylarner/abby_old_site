@@ -1,5 +1,15 @@
 .logo-wrapper {
     position: relative;
+    -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 6s; /* Firefox < 16 */
+        -ms-animation: fadein 6s; /* Internet Explorer */
+         -o-animation: fadein 6s; /* Opera < 12.1 */
+            animation: fadein 6s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 @keyframes logoAnimation {
@@ -19,8 +29,9 @@
 #logo {
     position: relative;
     margin: 6em auto 0 auto;
-    width: 160px;
+    width: 155px;
     height: 112px;
+
 
     .logo-left, .logo-right {
         position: absolute;

@@ -1,0 +1,356 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+
+    <title>Fixed Top Navbar Example for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+    <!-- Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100' rel='stylesheet' type='text/css'>
+
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span>menu</span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#home">home</a></li>
+            <li><a href="#web">web/mobile</a></li>
+            <li><a href="#logos">logos</a></li>
+            <li><a href="#about">about my hats</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="row" id="home">
+        <div class="col-sm-6 mobile-image">
+          <img src="images/abby_hats.png" id="abby-hats"/>  
+        </div>
+        <div class="col-sm-6 homepage-text">
+          <h2>Hi! I'm Abby, a UI Designer who wears many hats.</h2>
+          <a href="#web"><img src="images/arrow.png" id="arrow"/></a>
+        </div>
+      </div>
+
+      <div id="web">
+        <div class="col-sm-12">
+          <img src="images/divide_line.png" class="divide-line"/>
+        </div>
+      </div>
+
+      <div class="row hat-wrapper">
+        <div class="col-sm-3">
+          <img src="images/wizard_hat.png" class="title-hat" id="wizard-hat"/>
+        </div>
+        <div class="col-sm-8 info-text">
+          <h2>I'm a web and mobile wizard.</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 col-lg-offset-3">
+           <a href="www.900dpi.com"> <img class="imgborder web-image" src="images/900dpi.jpg" /> </a>    
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <a href="www.zingcoaching.com"><img src="images/zing.jpg" class="web-image"/></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 col-lg-offset-3">
+          <img src="images/cm.jpg" class="web-image"/>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <a href="www.900dpi.com"><img src="images/music.jpg" class="web-image"/></a>
+        </div>
+      </div>
+
+      <div class="row last">
+        <div class="col-sm-6 col-lg-4 col-lg-offset-3">
+          <img src="images/dlm.jpg" class="web-image"/>
+        </div>
+      </div>
+
+      <div class="row" id="logos">
+        <div class="col-sm-12">
+          <img src="images/divide_line.png" class="divide-line"/>
+        </div>
+      </div>
+
+      <div class="row hat-wrapper">
+        <div class="col-sm-4 col-lg-3">
+          <img src="images/cheese-hat.png" class="title-hat" id="cheese-hat"/>
+        </div>
+        <div class="col-sm-8 info-text">
+          <h2>I'm the big cheese in logo design.</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 col-lg-offset-3">
+          <img src="images/cville.gif" class="web-image"/>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <img src="images/gf_label.gif" class="web-image"/>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 col-lg-offset-3">
+          <img src="images/arts.gif" class="web-image"/>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <img src="images/900_logo.gif" class="web-image"/>
+        </div>
+      </div>
+
+      <div class="row last">
+        <div class="col-sm-6 col-lg-4 col-lg-offset-3">
+          <img src="images/zing_logo.gif" class="web-image"/>
+        </div>
+      </div>
+      
+      <div class="row" id="about">
+        <div class="col-sm-12">
+          <img src="images/divide_line.png" class="divide-line"/>
+        </div>
+      </div>
+
+      <div class="row hat-wrapper">
+        <div class="col-sm-4 col-lg-3">
+          <img src="images/arts_hat.png" class="title-hat" id="arts-hat"/>
+        </div>
+        <div class="col-sm-8 info-text">
+          <h2>I'm a print pro.</h2>
+        </div>
+      </div>
+
+        <div class="row">
+          <div class="col-sm-6 col-lg-4 col-lg-offset-3">
+            
+             <!-- Button trigger modal -->
+              <a data-toggle="modal" href="#myModal"><img src="images/water_walk.png" class="web-image"/></a>
+
+              <!-- Modal -->
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                    </div>
+                    <div class="modal-body">
+                      <img src="images/water_walk_full.png" class="modal-image" />
+                    </div>
+                    
+                  </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+              </div><!-- /.modal -->
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <img src="images/tails.png" class="web-image"/>
+          </div>
+        </div>
+
+        <div class="row last">
+            <div class="col-sm-6 col-lg-4 col-lg-offset-3">
+              <img src="images/america.png" class="web-image"/>
+            </div>
+            <div class="col-sm-6 col-lg-4">
+              <img src="images/corner.png" class="web-image"/>
+            </div>
+        </div>
+      </div>
+
+      <div class="row" id="about">
+        <div class="col-sm-12">
+          <img src="images/divide_line.png" class="divide-line"/>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="images/viking-hat.png" class="wizard-hat" id="viking-hat" />
+        </div>
+        <div class="col-sm-8 info-text">
+          <h2>Forging new paths, one start up at a time.</h2>
+          <p>Since moving to Madison, I have been involved in several start up companies.  Most of the companies I worked with were design-related projects.  However, recently I have started a company with two other developers, 900dpi, a hosted CMS for web designers.  This has been a great challenge and learning opportunity, and I can't wait to see where it goes! <a href="www.900dpi.com">Check it out!</a>  
+        </div>
+      </div>
+
+      <div class="row" id="about">
+        <div class="col-sm-12">
+          <img src="images/divide_line.png" class="divide-line"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="images/band-hat.png" id="band-hat"/>
+        </div>
+        <div class="col-sm-8 info-text">
+          <h2>I'm a flexible freelancer</h2>
+          <p>Although I work full-time, much of my free time is spent working on freelance projects.  If you're interested in hiring me, please <a href="#contact">drop me a line</a>!</p>
+        </div>
+      </div>
+
+      <div class="row" id="about">
+        <div class="col-sm-12">
+          <img src="images/divide_line.png" class="divide-line"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="images/chef_hat.png" id="chef-hat"/>
+        </div>
+        <div class="col-sm-8 info-text">
+          <h2>I'm mixin' it up in my free time.</h2>
+          <h3> Arts and Crafts</h3>
+          <p>One of my favorite hobbies is sewing (and arts and crafts in general).  If you want to check out some of my projects, my free time blog can be found <a href="http://pannatecha.wordpress.com/">here</a>.</p>
+          <h3>Volunteering</h3>
+          <p>I am also a proud volunteer coach at <a href="http://www.girlsontherun.org/">Girls on the Run</a>.  I love giving back to the community and inspiring young girls to reach the full potential</p>
+          <h3>Designing Together</h3>
+          <p>Finally, I love to meet other designers and build a stronger design community.  In Madison, I've been working on bringing together student and professional designers for 12 hours to work on design problems for local non-profits.  If you're interested in learning more, you can find details at <a href="designlikemad.org">designlikemad.org</a></p>
+        </div>
+      </div>
+
+      <div class="row" id="about">
+        <div class="col-sm-12">
+          <img src="images/divide_line.png" class="divide-line"/>
+        </div>
+      </div>
+
+      <div>
+      <div class="row">
+        <div class="col-sm-8 info-text">
+          <h2 class="about-hats">About my many hats:</h2>
+        </div>
+    </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="images/sombrero.png" id="sombrero"/>
+          </div>
+          <div class="col-sm-8 info-text">
+            <h3>The World Traveller</h3>
+            <p>The sombrero represents my love of travel.  In 2010 I spent 4 months in Siena, Italy studying and learning Italian. I have been to several different contries since then, and I can't wait for my next adventure. 
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-4">
+            <img src="images/chef_hat.png" id="chef-hat-small"/>
+          </div>
+          <div class="col-sm-8 info-text">
+            <h3>The Exotic Baker</h3>
+            <p>The sombrero represents my love of travel.  In 2010 I spent 4 months in Siena, Italy studying and learning Italian. I have been to several different contries since then, and I can't wait for my next adventure. 
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-4">
+            <img src="images/band-hat.png" id="band-hat-small"/>
+          </div>
+          <div class="col-sm-8 info-text">
+            <h3>The Band Geek</h3>
+            <p>The sombrero represents my love of travel.  In 2010 I spent 4 months in Siena, Italy studying and learning Italian. I have been to several different contries since then, and I can't wait for my next adventure. 
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-4">
+            <img src="images/arts_hat.png" id="arts-hat-small"/>
+          </div>
+          <div class="col-sm-8 info-text">
+            <h3>The Artist</h3>
+            <p>The sombrero represents my love of travel.  In 2010 I spent 4 months in Siena, Italy studying and learning Italian. I have been to several different contries since then, and I can't wait for my next adventure. 
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-4">
+            <img src="images/viking-hat.png" id="viking-hat-small"/>
+          </div>
+          <div class="col-sm-8 info-text">
+            <h3>The Explorer</h3>
+            <p>The sombrero represents my love of travel.  In 2010 I spent 4 months in Siena, Italy studying and learning Italian. I have been to several different contries since then, and I can't wait for my next adventure. 
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-4">
+            <img src="images/cheese-hat.png" id="cheese-hat-small"/>
+          </div>
+          <div class="col-sm-8 info-text">
+            <h3>The Midwesterner</h3>
+            <p>The sombrero represents my love of travel.  In 2010 I spent 4 months in Siena, Italy studying and learning Italian. I have been to several different contries since then, and I can't wait for my next adventure. 
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-4">
+            <img src="images/wizard_hat.png" id="wizard-hat-small"/>
+          </div>
+          <div class="col-sm-8 info-text">
+            <h3>The Learner</h3>
+            <p>The sombrero represents my love of travel.  In 2010 I spent 4 months in Siena, Italy studying and learning Italian. I have been to several different contries since then, and I can't wait for my next adventure. 
+          </div>
+      </div>
+    </div>
+      <div class="row" id="contact">
+        <div class="col-sm-12">
+          <img src="images/divide_line.png" class="divide-line"/>
+        </div>
+      </div>
+
+
+
+      <div class="row last">
+        <div class="col-sm-4">
+          <img src="images/sayhi.png" id="say-hi"/>
+        </div>
+        <div class="col-sm-8 info-text">
+          <h2>Say hi!</h2>
+          <p>
+            aalarner@gmail.com<br />
+            434.774.8041<br />
+            @abbylarner
+          </p>
+
+        </div>
+      </div>
+
+ <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.smooth-scroll.min.js"></script>
+    <script src="js/abby.js"></script>
+
+  </body>
+</html>

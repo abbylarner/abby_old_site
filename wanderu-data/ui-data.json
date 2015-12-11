@@ -1,0 +1,30 @@
+[{
+	"depart_date": "2015-04-27",
+	"to": "Orlando",
+	"from": "Miami",
+	"price": 18,
+	"price_info": "guaranteed lowest fare",
+	"details": "This is sample detail 1. Carrier info might be here"
+}, {
+	"depart_date": "2015-04-28",
+	"to": "Orlando",
+	"from": "Miami",
+	"price": 23,
+	"price_info": "average fare",
+	"details": "This is sample detail 2. Carrier info might be here"
+}, {
+	"depart_date": "2015-04-29",
+	"to": "Orlando",
+	"from": "Miami",
+	"price": 25,
+	"price_info": "average fare",
+	"details": "This is sample detail 3. Carrier info might be here"
+}, {
+	"depart_date": "2015-04-30",
+	"to": "Orlando",
+	"from": "Miami",
+	"price": 35,
+	"price_info": "high demand fare",
+	"details": "This is sample detail 4. Carrier info might be here"
+}
+]

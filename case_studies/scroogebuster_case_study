@@ -1,0 +1,24 @@
+ScroogeBuster:
+
+About: 
+Scroogebuster was a mobile app that my brother, Aaron Larner, and I designed and developed using node.js, angular, and ionic.  The idea was to create a way of sharing a holiday wishlist with friends and family.  It also allows friends and family to claim items on a wishlist without the owner of the wishlist knowing.
+
+Challenges:
+The main challenge with this app was a time constraint of 3 weeks.  The holidays were quickly approaching and we wanted to release the app in time for users to create lists and claim items.
+
+Research:
+Our initial research included a competitive market analysis. We discovered that there were several other companies that had similar items, but were not optomized for mobile.  As a result, we made an app optomized for mobile, but that would also work on the web for desktop users.
+
+Design Planning:
+The color scheme and design of this app is meant to be friendly for all holidays.  We didn't want the design to be Christmas specific because we know that there are many other holidays where people are creating wish lists (Hannukah, Valentine's Day, Birthdays, etc.). The initial design was created specifically for winter holidays, but the design also lends itself to future cusotimization based on the holiday.
+
+Wireframes:
+
+
+Mockups:
+
+Technologies:
+HTML
+CSS/Sass
+JS
+Bootstrap

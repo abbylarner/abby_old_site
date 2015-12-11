@@ -1,0 +1,36 @@
+900dpi:
+
+About:
+900dpi is a tool that makes it easy for designers and developers of all skill levels to implement a content managment system (CMS) using just HTML and CSS. 900dpi uses Dropbox syncing to allow users sync their HTML, CSS, and JS files from Dropbox directly to the 900dpi servers.  It also allows them to mark certain HTML elements as "editable" so their clients can manage content easily. This project went through several iterations after it was launched in September, 2013.  For this project I worked with developers Aaron Larner, Adam Perkins, and Josh Thomas.
+
+Challenges:
+The biggest challenge for this project was creating an interface that was easy to use for both technical users (designers and developers) and non-technical users (clients of the designers and developers).
+
+Research:
+Our initial research for this project included determining whether the idea was viable for the market.  We conducted interviews, surveys, and competitive market analyses.  We found that there was very little competition in the space of cloud-based hosting/ CMS products, and that many designers and developers wanted a stripped down version of the traditional CMS's (Wordpress, Drupal, Joomla!) for simple, static websites that they were building.
+
+Design Planning:
+We decided that the best solution for the designers and developers who were implementing the CMS would be a traditional dashboard design where they could manage both the website design and the editors (clients) that would be changing content on the site.
+
+For the clients, we thought it would be best to remove the dashboard all together.  Based on our research, one of the struggles non-technical users had with traditional CMS's is that the dashboard was too complicated and often times when they went to edit content, they ended up changing something completely different than what they had expected. Therefore, we decided to implement a "what you see is what you get" (WIZYWIG) editor.  This would allow the clients to click on the content they wanted to edit directly from the website itself.
+
+Wireframes:
+[img]
+
+Mockups:
+
+
+Testing:
+After the initial design and development for this project was implemented, we conducted several user testing sessions because we noticed there was a dropoff from a technical user signing up to adding their own content to Dropbox. The results from the test showed that our initial design of the dashboard made it unclear what the steps were to create a website, and our design of the WISYWIG interface was also difficult for users to understand.
+
+As a result, we redesigned the dashboard to call out the most important actions that a technical and non-technical user could take and also added a walk through when a user created a new website.  Finally, we redesigned the navigation on the WIZYWIG editor so that it was more visible and easy to understand. 
+
+New Dashboard:
+
+Technologies:
+
+HTML
+CSS/Sass
+JS
+Bootstrap
+

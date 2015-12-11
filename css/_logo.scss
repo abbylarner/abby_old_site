@@ -1,0 +1,267 @@
+.logo-wrapper {
+    position: relative;
+}
+
+@keyframes logoAnimation {
+    0% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#logo {
+    position: relative;
+    margin: 6em auto 0 auto;
+    width: 160px;
+    height: 112px;
+
+    .logo-left, .logo-right {
+        position: absolute;
+        height: 112px;
+        overflow: hidden;
+        width: 80px;
+    }
+
+    .logo-left {
+        background: url("../images/logo_left_sprite.svg") 0 0 no-repeat;
+        background-size: 80px 224px;
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: url('../images/logo_left_sprite.svg') no-repeat;
+             background-size: 80px 224px;
+            background-position: 0 -112px;
+            opacity: 0;
+            -webkit-transition: opacity 0.5s;
+            -moz-transition: opacity 0.5s;
+            -o-transition: opacity 0.5s;
+        }
+
+        &:hover:after {
+            opacity: 1;
+        }
+    }
+
+    .logo-right {
+        background: url("../images/logo_right_sprite.svg") 0 0 no-repeat;
+        background-size: 80px 224px;
+        left: 5.28em;
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: url('../images/logo_right_sprite.svg') no-repeat;
+             background-size: 80px 224px;
+            background-position: 0 -112px;
+            opacity: 0;
+            -webkit-transition: opacity 0.5s;
+            -moz-transition: opacity 0.5s;
+            -o-transition: opacity 0.5s;
+        }
+
+        &:hover:after {
+            opacity: 1;
+        }
+    }
+
+    .logo-diamond {
+        position: absolute;
+        width: 33px;
+        height: 63px;
+        background: url("../images/logo_diamond_sprite.svg") 0 0 no-repeat;
+        background-size: 33px 126px;
+        left: 4.28em;
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: url('../images/logo_diamond_sprite.svg') no-repeat;
+             background-size: 33px 126px;
+            background-position: 0 -63px;
+            opacity: 0;
+            -webkit-transition: opacity 0.5s;
+            -moz-transition: opacity 0.5s;
+            -o-transition: opacity 0.5s;
+        }
+
+        &:hover:after {
+            opacity: 1;
+        }
+    }
+
+    .triangle-left, .triangle-right {
+        position: absolute;
+        height: 36px;
+        overflow: hidden;
+        width: 32px;
+    }
+
+    .triangle-left {
+        background: url("../images/triangle_left_sprite.svg") 0 0 no-repeat;
+        background-size: 32px 72px;
+        left: 3.21em;
+        top: 2.2em;
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: url('../images/triangle_left_sprite.svg') no-repeat;
+                         background-size: 32px 72px;
+
+            background-position: 0 -36px;
+            opacity: 0;
+            -webkit-transition: opacity 0.5s;
+            -moz-transition: opacity 0.5s;
+            -o-transition: opacity 0.5s;
+        }
+
+        &:hover:after {
+            opacity: 1;
+        }
+    }
+
+    .triangle-right {
+        background: url("../images/triangle_right_sprite.svg") 0 0 no-repeat;
+        background-size: 32px 72px;
+        left: 5.42em;
+        top: 2.2em;
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: url('../images/triangle_right_sprite.svg') no-repeat;
+            background-size: 32px 72px;
+            background-position: 0 -36px;
+            opacity: 0;
+            -webkit-transition: opacity 0.5s;
+            -moz-transition: opacity 0.5s;
+            -o-transition: opacity 0.5s;
+        }
+
+        &:hover:after {
+            opacity: 1;
+        }
+    }
+
+    .trapazoid {
+        position: absolute;
+        width: 84px;
+        height: 28px;
+        background: url("../images/trapazoid_sprite.svg") 0 0 no-repeat;
+        background-size: 84px 56px;
+        left: 2.4287em;
+        top: 4.528em;
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: url('../images/trapazoid_sprite.svg') no-repeat;
+            background-size: 84px 56px;
+            background-position: 0 -28px;
+            opacity: 0;
+            -webkit-transition: opacity 0.5s;
+            -moz-transition: opacity 0.5s;
+            -o-transition: opacity 0.5s;
+        }
+
+        &:hover:after {
+            opacity: 1;
+        }
+    }
+
+    .bottom-left, .bottom-right {
+        position: absolute;
+        height: 24px;
+        overflow: hidden;
+        width: 44px;
+
+        &:hover {
+            background-position: 0 -24px;
+        }
+    }
+
+    .bottom-left {
+        background: url("../images/bottom_left_sprite.svg") 0 0 no-repeat;
+        background-size: 44px 48px;
+        left: 1.82em;
+        top: 6.26em;
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: url('../images/bottom_left_sprite.svg') no-repeat;
+            background-size: 44px 48px;
+            background-position: 0 -24px;
+            opacity: 0;
+            -webkit-transition: opacity 0.5s;
+            -moz-transition: opacity 0.5s;
+            -o-transition: opacity 0.5s;
+        }
+
+        &:hover:after {
+            opacity: 1;
+        }
+    }
+
+    .bottom-right {
+        background: url("../images/bottom_right_sprite.svg") 0 0 no-repeat;
+        background-size: 44px 48px;
+        left: 5.9em;
+        top: 6.26em;
+		&:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: url('../images/bottom_right_sprite.svg') no-repeat;
+            background-size: 44px 48px;
+            background-position: 0 -24px;
+            opacity: 0;
+            -webkit-transition: opacity 0.5s;
+            -moz-transition: opacity 0.5s;
+            -o-transition: opacity 0.5s;
+        }
+
+        &:hover:after {
+            opacity: 1;
+        }
+
+    }
+}

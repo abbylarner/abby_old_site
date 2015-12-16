@@ -114,6 +114,10 @@ a {
 .about-hats {
 	margin-left: 10%;
 }
+
+.case-study img {
+	width: 100%;
+}
 /*Page Scroll*/
 
 @media (min-width: 768px){
